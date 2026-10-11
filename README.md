@@ -14,7 +14,7 @@ Khulna City Corporation (KCC), the third-largest city in Bangladesh, located in 
 | Dataset | Source | Details |
 |---|---|---|
 | Landsat 8 OLI/TIRS Collection 2, Level 2 | USGS, via Google Earth Engine | January to December 2024, 30 m |
-| KCC administrative boundary | ADD SOURCE | Vector boundary (`data/kcc_boundary.geojson`) |
+| KCC administrative boundary | KCC | Vector boundary (`data/kcc_boundary.geojson`) |
 
 ## Method
 All satellite processing was done in Google Earth Engine (`gee/kcc_uhi_utfvi.js`):
