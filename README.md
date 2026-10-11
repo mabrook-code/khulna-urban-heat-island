@@ -2,7 +2,7 @@
 
 Mapping land surface temperature (LST), the Urban Heat Island (UHI) intensity, and the Urban Thermal Field Variance Index (UTFVI) for Khulna City Corporation (KCC), Bangladesh, using Landsat 8 imagery from 2024, processed in Google Earth Engine and mapped in ArcGIS Pro.
 
-![LST map of Khulna City Corporation](maps/lst_kcc_2024.png)
+![LST map of Khulna City Corporation](maps/lst_kcc_2024.jpg)
 
 ## Objective
 To identify how surface heat is distributed across Khulna City Corporation and where thermal stress is highest, and to examine the potential role of green spaces in reducing urban heat.
@@ -51,7 +51,7 @@ All satellite processing was done in Google Earth Engine (`gee/kcc_uhi_utfvi.js`
 
 | Land Surface Temperature | Urban Heat Island | UTFVI |
 |---|---|---|
-| ![LST](maps/lst_kcc_2024.png) | ![UHI](maps/uhi_kcc_2024.png) | ![UTFVI](maps/utfvi_kcc_2024.png) |
+| ![LST](maps/lst_kcc_2024.jpg) | ![UHI](maps/uhi_kcc_2024.jpg) | ![UTFVI](maps/utfvi_kcc_2024.jpg) |
 
 Key findings:
 - LST ranged from **X °C to Y °C**, with a mean of **Z °C**.
@@ -76,8 +76,7 @@ Key findings:
 ```
 
 ## How to Reproduce
-1. Open the script directly in the Earth Engine Code Editor: [Open in GEE](PASTE_GET_LINK_HERE)
-   or paste `gee/kcc_uhi_utfvi.js` into the [Code Editor](https://code.earthengine.google.com/).
+1. Open the script directly in the Earth Engine Code Editor: [Open in GEE](https://code.earthengine.google.com/44fe1f6148d6655c1c24fd6959ecfc2f)
 2. Upload `data/kcc_boundary.geojson` as a GEE asset and update the boundary path in the script if needed.
 3. Run the script. The Console prints the scene count, LST statistics, UTFVI class areas, and the NDVI–LST correlation. Export the rasters from the Tasks tab.
 4. The exported GeoTIFFs can be opened in ArcGIS Pro or QGIS for mapping.
